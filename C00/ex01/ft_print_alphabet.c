@@ -8,10 +8,6 @@ void	ft_print_alphabet(void)
 	while (alph <= 'z')
 	{
 		write(1, &alph, 1);
+		alph++;
 	}
-}
-
-int	main(void)
-{
-	ft_print_alphabet();
 }
